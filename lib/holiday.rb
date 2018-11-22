@@ -63,8 +63,7 @@ def all_supplies_in_holidays(holiday_hash)
         word[0] = word[0].upcase
         word
       end
-
-      puts "#{arr.join(" ")}: #{supplies.join(", ")}
+      puts "  #{arr.join(" ")}: #{supplies.join(", ")}"
     end
   end
 end
